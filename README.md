@@ -63,8 +63,8 @@ $di->asset["js"]->generateHtml(AssetType::CSS);
 will generate
 
 ```
-<script language="JavaScript" src="/asset/js/somePrefix/file1.js"></script>
-<script language="JavaScript" src="/asset/js/somePrefix/file2.js"></script>
+<script language="JavaScript" src="/asset/js/somePrefix/file1.js?v=1.0.1"></script>
+<script language="JavaScript" src="/asset/js/somePrefix/file2.js?v=1.0.1"></script>
 .. 
 ```
 
